@@ -16,4 +16,3 @@ mkdir -p /home/git/test-repo.git
 mkdir -p /home/git/.ssh/
 echo $key >> /home/git/.ssh/authorized_keys
 chown git:git /home/git/test-repo.git
-
