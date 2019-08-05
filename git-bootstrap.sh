@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 id=$(id -u)
 key='your id_rsa.pub contents'
 if [ $id -ne 0 ]; then
